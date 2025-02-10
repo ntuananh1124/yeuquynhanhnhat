@@ -1,0 +1,85 @@
+/* Font 1 */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* End Font 1 */
+
+:root {
+    /* Color */
+    --pink-color: #FF589E;
+    --purple-color: #ffaafc;
+    --purple-2-color: #A582EC;
+    --pastel-color: #F2F2FE;
+    --text-color: #1e1e1e;
+    /* End Color */
+
+    /* font */
+    --font-1: 'Raleway', sans-serif;
+    /* End font */
+}
+
+body {
+    font-family: var(--font-1);
+    letter-spacing: 0.6px;
+    overflow-x: hidden !important;
+}
+
+html {
+    overflow-x: hidden !important;
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.row-gap-30 {
+    row-gap: 30px;
+}
+
+.row-gap-20 {
+    row-gap: 20px;
+}
+
+/* Change selection color */
+::selection {
+        color: white;
+        background: var(--pink-color);
+    }
+
+::-moz-selection {
+        color: white;
+        background: var(--pink-color);
+}
+/* End */
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        transform: translateY(-90px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-90px);
+        opacity: 0;
+    }
+}
+/* End Animation */
