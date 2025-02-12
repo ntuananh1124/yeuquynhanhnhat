@@ -850,12 +850,12 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 1.5rem;
-    height: calc(1.5rem * 3);
+    height: calc(1.5rem * 4);
     overflow: hidden;
     display: inline;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
 }
 
 .section-7-btn {
